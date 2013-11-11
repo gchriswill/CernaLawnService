@@ -1,7 +1,9 @@
 
 #CernaLawnService.com
 
-##Information  
+##Information
+
+Developer: Christopher Gonzalez D.K.A. "GchrisWill"  
 Project: CernaLawnservice.com  
 Client: Cerna Lawn Service LLC  
 Development Type: Interactive Website-application  
