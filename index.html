@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- ***************************************** -->
+<!-- *  	    Cerna's Lawn Services        * -->
+<!-- *          Website HTML5 Markup         * -->
+<!-- *	 *	 *	 *	 *	 *	 *	 *	 *	 *	 * --> 
+<!-- *	       Designed And Developed        * -->
+<!-- *	       			By	                 * -->	     
+<!-- *	       Christopher W Gonzalez	     * -->       
+<!-- *	         D.K.A. "GchrisWill"		 * --> 
+<!-- *	                               		 * -->
+<!-- *	         gchriswill@me.com   		 * -->
+<!-- ***************************************** -->
+
+<html>
+	<head>
+	
+	<!-- Basic Metas *************************************************** -->
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="lawn, services, service, grass, maintenance, Cerna, Oscar" />
+	<meta name="author" content="GchrisWill, Christopher Gonzalez"  />
+    
+    <!-- Metas for mobile ********************************************** -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="handheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	
+	<!-- Title ********************************************************* -->
+	<title>Cerna Lawn Service</title>
+	
+	<!-- CSS Frameworks ************************************************ -->
+	<link rel="stylesheet" href="styleFrameworks/normalize.css" media="screen"/>
+	
+	<!-- Custom Grid CSS *********************************************** -->
+	<link rel="stylesheet" href="styleFrameworks/grid.css" media="screen"/>
+	
+	<!-- Custom CSS **************************************************** -->
+	<link rel="stylesheet" href="styles/customStyle.css" media="screen"/>
+	
+	</head>
+	
+	<!-- Structure ***************************************************** -->
+	<body>
+	
+	<!-- Container Structure ******************************************* -->
+		<div class="container clearfix">
+		
+	<!-- Branding Structure ******************************************** -->
+			<div class="grid_4 myGrid_1" >
+				<a href="#"><img id="logo1" src="images/images.png" alt="Cerna, Cerna's Lawn Service, Lawn, service, Oscar">
+				<h1 id="logo2">Cerna Lawn Service LLC</h1></a>
+			</div>
+			
+	<!-- Top Navigation Bar ******************************************** -->		
+			<div class="grid_8 omega">
+				<nav>
+					<ul class="nav">
+						<li class="liLinks"><a class="colorToggle" href="#">About</a></li>
+						<li class="liLinks"><a class="colorToggle" href="#">Services & Prices</a></li>
+						<li class="liLinks"><a class="colorToggle" href="#">Areas</a></li>
+						<li id="showContact" class="last liLinks" ><a onclick="fade()" id="colorContact" class="colorToggle" href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+	<!-- Hidden Contact Info ******************************************* --> 
+			<div id="hidden123" style="display:none">
+				<div id="showDiv1" class="contactHidden grid_12" >
+					<a id="closeX1" onclick="fade()" href="#"><img id="closeX2" src="images/closeImg.png" alt="close" /></a>
+					<p class="test123">hello world</p>
+					<p class="test123">hello world</p>
+					<p class="test123">hello world</p>
+					<p class="test123">hello world</p>
+					<p class="test123">hello world</p>
+					<p class="test123">hello world</p>
+				</div>
+				<!--
+<div id="showDiv2" class="contactHidden2 grid_4">
+					
+				</div>
+-->
+			</div>
+			
+	<!-- CTA *********************************************************** --> 
+			<div id="cta" class="grid_12">
+				<h1>Call to action goes here!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p><a href="#" class="button-big" >Browse our weekly offer</a></p>
+			</div>
+			
+	<!-- Showcase Demo ************************************************* -->
+			<div id="demo-container1" class="grid_7">
+				<h2>Delivering Landscape Quality</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<div class="demoImgContainer">
+					<img class="demoImg0" src="images/images0.png" alt="landscape, garden, lawn, maintenance"/>
+					<img class="demoImg1" src="images/images1.png" style="display:none" alt="landscape, garden, lawn, maintenance"/>
+					<img class="demoImg2" src="images/images2.png" style="display:none" alt="landscape, garden, lawn, maintenance"/>
+					<img class="demoImg3" src="images/images3.png" style="display:none" alt="landscape, garden, lawn, maintenance"/>
+					<div class="imgFooter" style="" >
+						<a onclick="previousArrow()" href="#imgFooter"><div class="imgArrowCut1"></div></a>
+						<a href="#" class="galleryBrowse">Browse Our Gallery</a>
+						<a onclick="nextArrow()" href="#imgFooter"><div class="imgArrowCut2"></div></a>
+					</div>
+				</div>
+			</div>
+			
+	<!-- Meat The Team ************************************************* -->
+			<div id="team1" class="grid_5 omega">
+					<h2 id="teamHeader">Meet our team of experts</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<div class="teamAnimate1">
+					<img src="images/Team.png" alt="Cerna, Cerna's lawn team, team, lawn experts, lawn specialists">
+				</div>
+				<div class="teamAnimate2">
+					<img src="images/goals.png" alt="Cerna, Cerna's lawn team, team, lawn experts, lawn specialists">
+				</div>
+			</div>
+	<!-- Designing Guide *********************************************** -->
+			<div class="grid_7">
+				<h2>Check Our Landscape and Garden<br> Designing Guide</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p><a href="#" class="button-small">Read More</a></p>
+			</div>
+	<!-- Home Page Contact Area **************************************** -->
+			<div class="grid_5 omega">
+				<h2>For the sake of you lawn and your pocket, contact us today...</h2>
+				<div id="contact">
+					<p>Call us: <br> <span>(239)872-5033 English</span><br> <span>(239)878-5890 Spanish</span><br>
+					<br> Email us:<br> <a href="mailto:ocerna007@yahoo.com">ocerna007@yahoo.com</a></p>
+				</div>
+			</div>
+	<!-- Footer ******************************************************** -->
+			<div id="copyright" class="grid_12">
+				<p>Designed, developed, maintained and hosted by Christopher Gonzalez - D.K.A "GchrisWill" - Contact: <a href="mailto:gchriswill@me.com">gchriswill@me.com</a><br> © 2013 Cerna Lawn Service LLC. All Rights Reserved.</p>
+			</div>
+		</div>
+		
+		<!-- jQuery Library Links (Added 11/03/2013) -->
+		<!--
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+-->
+		
+		<!-- Custom JavaScript Links -->
+		<script src="scripts/mainScript.js" type="text/javascript"></script>
+	
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

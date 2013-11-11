@@ -1,0 +1,271 @@
+  /* *****************************************
+   *  	      Cerna's Lawn Services          *
+   *         Website CSS Sytle Sheet         *
+   *	*	*	*	*	*	*	*	*	*	 * 
+   *	       Designed And Developed        *
+   *	       			By	                 *
+   *	       Christopher W Gonzalez	     *
+   *	         D.K.A. "GchrisWill"		 *
+   *	                               		 *
+   *	         gchriswill@me.com           *
+   ***************************************** */
+
+
+/* ************************************************* */
+
+/* Body Styles ************************************* */ 
+body {
+	font-family: sans-serif;
+	color: #242424;
+	background: url(../images/patterns/thatched.png) repeat;
+}
+
+/* Branding Logo Styles **************************** */
+div.myGrid_1{
+	height: 190px;
+}
+#logo1 {
+	width: 160px;
+	margin-top: 20px;
+	border: 1px solid #ccc;	
+}
+#logo2 {
+	color: #b22316;
+}
+/* ================================================= */
+
+
+/* Links Styles ************************************ */
+a {
+	color: #137937;
+	text-decoration: none;
+}
+/* ================================================= */
+
+/* Headers Styles ********************************** */
+h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	color: #5f6c0f;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #5f6c0f;
+}
+/* ================================================= */
+
+/* Main Navigaton Bar Styles *********************** */
+ul.nav {
+	margin-top: 140px;
+	padding: 0;
+	list-style: none;
+	float: right;
+	border-bottom: 5px solid #b22316;
+}
+ul.nav li {
+	float: left;
+	margin-right: 25px;
+	margin-left: 0px;
+	padding: 5px;
+	
+	
+}
+div ul.nav li:hover {
+	padding: 5px;
+	
+	font-family: sans-serif;
+	background: #b22316;
+}
+div ul.nav li#showContact {
+	margin-right: 0px;
+	padding-right: 5px
+}
+/* ================================================= */
+
+
+
+/* Testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+div.contactHidden {
+	width: 998px;
+	border: 1px solid #ccc;
+	background: #eeeeee;
+	margin: 0px;
+	box-shadow: inset 0px 0px 6px rgba(0,0,0,0.80);
+	height:0px;
+	overflow:hidden;
+}
+p.test123 { 
+padding:4px 16px; 
+}
+
+/* End Of Testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+#closeX2 {
+	width: 24px;
+	height: 24px;
+	margin: 10px 10px 10px 10px;
+}
+
+
+
+/* CTA Styles ************************************** */
+#cta {
+	z-index: 2;
+	width: 988px;
+	height: 322px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background: #eeeeee;
+	margin: 25px 0 25px 0;
+}
+
+.button-big {
+	padding: 15px 30px;
+	margin: 40px 0;
+	color: #ffffff;
+	background: #4fb69f;
+	text-transform: uppercase;
+}
+
+.button-big:hover {
+	background-color: transparent;
+	border: 2px solid #4fb69f;
+	color: #4fb69f;
+}
+/* ================================================= */
+
+/* Showcase Demo Styles Player ********************* */
+.demoImgContainer {
+	width: 575px;
+	height: auto;
+}
+div.demoImgContainer > img.demoImg0, img.demoImg1, img.demoImg2, img.demoImg3  {
+	position: absolute;
+	width: 575px;
+	height: auto;
+	z-index: 1;
+	border: 1px solid #ccc;	
+}
+.imgFooter {
+	position: absolute;
+	z-index: 2;
+	width: 566px;
+	height: 20px;
+	margin-top: 197px;
+	margin-left: 1px;
+	padding: 5px 5px 5px 5px;
+	background: rgba(155,155,155,0.5);
+	text-align: center;
+}
+.imgFooter > span:first-child {
+	float: left;
+	padding-right: 50px; 
+}
+.imgFooter span:last-child {
+	float: right;
+}
+.imgArrowCut1, .imgArrowCut2 {
+	background: url(../images/playerArrows.png) no-repeat 0;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+div.imgArrowCut2 {
+	background-position: -24px 0px;
+	float: right
+}
+div.imgArrowCut1:hover {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50px;
+}
+div.imgArrowCut2:hover {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50px;
+}
+div.imgFooter > a.galleryBrowse {
+	color: rgba(0,0,0,0.90);
+}
+div.imgFooter > a:first-of-type + a:hover {
+	text-decoration: underline;
+	padding: 2px 4px 2px 4px;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50px;
+}
+/* ================================================= */
+
+/* Meat The Team *********************************** */
+#team1 {
+	width: 363px;
+	height: 339px;
+	padding: 0px 20px 4px 20px;
+	border: 1px solid #ccc;
+	background: #eeeeee;
+	border-radius: 0px;
+	
+}
+#teamHeader {
+	text-align: center;
+}
+
+#team1 img {
+	width: 200px;
+	height: 150px;
+	margin: 0px 80px 0px 80px;
+}
+.teamAnimate1 {
+	z-index: 2;
+	position: absolute;
+	background: #eeeeee;
+}
+.teamAnimate2 {
+	z-index: 1;
+	position: absolute;
+	background: #eeeeee;
+}
+
+/* ================================================= */
+
+/* Designing Guide ********************************* */
+.button-small {
+	padding: 10px 25px;
+	margin: 50px 0;
+	color: #ffffff;
+	font-size: .75em;
+	background: #b22316;
+	text-transform: uppercase;
+}
+
+.button-small:hover {
+	background-color: transparent;
+	border: 2px solid #b22316;
+	color: #b22316;
+}
+/* ================================================= */
+
+/* Home Page Contact Area ************************** */
+#contact span{
+	color: #b22316;
+	font-weight: 600;
+}
+
+/* Footer ****************************************** */
+#copyright {
+	border-top: 5px solid #b22316;
+	padding: 10px 0;
+	margin: 15px 0;
+	text-align: center;
+}
+/* ================================================= */
+
+
+
