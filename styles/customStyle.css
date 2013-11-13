@@ -75,12 +75,9 @@ ul.nav li {
 	margin-right: 25px;
 	margin-left: 0px;
 	padding: 5px;
-	
-	
 }
 div ul.nav li:hover {
 	padding: 5px;
-	
 	font-family: sans-serif;
 	background: #b22316;
 }
@@ -160,8 +157,8 @@ div.demoImgContainer > img.demoImg0, img.demoImg1, img.demoImg2, img.demoImg3  {
 	position: absolute;
 	z-index: 2;
 	width: 566px;
-	height: 20px;
-	margin-top: 197px;
+	height: 25px;
+	margin-top: 192px;
 	margin-left: 1px;
 	padding: 5px 5px 5px 5px;
 	background: rgba(155,155,155,0.5);
@@ -200,6 +197,26 @@ div.imgFooter > a:first-of-type + a:hover {
 	padding: 2px 4px 2px 4px;
 	background-color: rgba(255,255,255,0.2);
 	border-radius: 50px;
+}
+div.imgFooter ul {
+	position: absolute;
+	list-style-type: none;
+	margin-top: 25px;
+	z-index: 3;
+	
+}
+div.imgFooter ul li {
+	float: left;
+	margin-right: 27px;
+	margin-left: 0px;
+	padding-right: 80px;
+	border-bottom: 5px solid rgba(0,0,0,0.50);
+}
+div.imgFooter ul li:last-child {
+	margin-right: 0px;
+}
+div.imgFooter ul li:first-child {
+	margin-left:43px;
 }
 /* ================================================= */
 
